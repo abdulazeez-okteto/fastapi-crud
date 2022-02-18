@@ -9,7 +9,7 @@ app = FastAPI()
 @app.get("/", tags=["Root"])
 def get_root() -> dict:
     return {
-        "message": "Welcome to your Okteto app."
+        "message": "Welcome to your Okteto app in preview."
     }
 
 @app.get("/recipe", tags=["Recipe"])
